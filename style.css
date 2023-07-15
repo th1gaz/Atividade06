@@ -1,0 +1,162 @@
+body{
+
+    display: flex;
+   
+    
+    flex-direction: column;
+    background-color: #aa9dff8c;
+}
+
+header{
+    margin-top: -8px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: #473d8b94;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+   
+
+}
+#menu{
+display: flex;
+flex-direction: row;
+justify-content: center;
+row-gap: 500px;
+
+}
+
+.botao{
+    padding: 10px;
+    width: 80px;
+    margin:10px;
+    color:white;
+    border: 1px solid grey;
+    text-decoration: nome;
+    display: block;
+    display: flex;
+    justify-content: center;
+    row-gap: 500px;
+
+}
+.botao:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+#botao:link{
+    color: black;
+}
+
+#botao:visited{
+    color: white;
+}
+
+#botao:active{
+background-color: blue;
+color: aliceblue;
+}
+
+main{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #bbb2f5;
+    font-size: 15px;
+    height: 1300px;
+    
+}
+#esporte{
+    width: 3000px;
+}
+footer{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: brown;
+}
+
+#nome{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation-name: animacao_titulo;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 1px solid rgb(19, 18, 18);
+    background-color: #7B68EE;
+    
+}
+
+#nome:hover{
+    transform: translateX(-50px);
+    background-color: darkblue;
+    color: white;
+}
+/*/<!--ANIMACAO-->/*/
+@keyframes animacao_titulo{
+    0%{
+        background-color: rgba(0, 0, 255, 0.829);
+        color: rgb(0, 0, 0);
+        transform: translateX(100px);
+        
+        
+    }
+    50%{
+        background-color: rgba(0, 0, 255, 0.253);
+        color: black;
+        transform: translateX(200px);
+
+    
+    }
+    100%{
+        background-color: rgba(0, 0, 255, 0.829);
+        color: rgb(0, 0, 0);
+        transform: translateX(100px);
+        
+    }
+
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#rodape{
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 10px;
+    height: 120px;
+    font-size: 15px;
+    background-color: #6A5ACD
+}
+
+.minas{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+h2{
+    padding: 20px;
+    font-size: 30px;
+}
+
+a:visited{
+    color: rebeccapurple;
+}
+a:hover{
+    color: red;
+}
+
+#link_ex{
+    font-size: 20px;
+    text-align: center;
+}
+
+#corpo{
+    width: 650px;
+    margin:0 auto;
+    display: block;
+}
